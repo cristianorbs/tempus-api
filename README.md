@@ -8,8 +8,14 @@ Hospedada em um servidor dedicado para garantir um uptime de qualidade.
 
 Contribuições são bem-vindas.
 
-#TODOS
+# TO-DOS
 - Melhorar segurança;
 - Limitar requests;
 - Limitar acessos;
 - Criar requests mais específicos;
+
+
+# Créditos
+- LoopBack (Framework em Node.js para criação de APIs REST)
+
+- Push Woosh (API de integração de push notifications)
