@@ -1,0 +1,19 @@
+{
+  "mydb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "ordem",
+    "password": "",
+    "name": "mydb",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "push": {
+    "name": "push",
+    "connector": "loopback-component-push",
+    "installation": "installation",
+    "notification": "notification",
+    "application": "application"
+  }
+}

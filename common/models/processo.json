@@ -1,0 +1,50 @@
+{
+  "name": "processo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "cliente_id": {
+      "type": "number",
+      "required": true
+    },
+    "numero": {
+      "type": "string",
+      "required": true
+    },
+    "assunto": {
+      "type": "string",
+      "required": true
+    },
+    "parte": {
+      "type": "string"
+    },
+    "partes_interessadas": {
+      "type": "string"
+    },
+    "partes_contrarias": {
+      "type": "string"
+    },
+    "rito": {
+      "type": "string"
+    },
+    "distribuicao": {
+      "type": "string"
+    },
+    "observacoes": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

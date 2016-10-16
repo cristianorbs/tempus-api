@@ -1,0 +1,27 @@
+{
+  "name": "milestone",
+  "plural": "milestones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "data": {
+      "type": "date"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "processo_id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "usuario": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "tarefa": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "processo": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "milestone": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "escritorio": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "envolvimento": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "comentario": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "cliente": {
+    "dataSource": "mydb",
+    "public": true
+  },
+  "push": {
+    "public": true,
+    "dataSource": "push"
+  }
+}

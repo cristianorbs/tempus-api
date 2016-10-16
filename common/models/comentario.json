@@ -1,0 +1,30 @@
+{
+  "name": "comentario",
+  "plural": "comentarios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "data": {
+      "type": "date"
+    },
+    "responsavel_id": {
+      "type": "number"
+    },
+    "tarefa_id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

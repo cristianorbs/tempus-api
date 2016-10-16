@@ -1,0 +1,47 @@
+{
+  "name": "tarefa",
+  "plural": "tarefas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "string",
+      "required": true
+    },
+    "responsavel_id": {
+      "type": "number",
+      "required": true
+    },
+    "data_inicio": {
+      "type": "date",
+      "required": true
+    },
+    "data_fim": {
+      "type": "date"
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "milestone_id": {
+      "type": "number"
+    },
+    "tempo_dedicado": {
+      "type": "float"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

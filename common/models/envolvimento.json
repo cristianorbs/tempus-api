@@ -1,0 +1,24 @@
+{
+  "name": "envolvimento",
+  "plural": "envolvimentos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "processo_id": {
+      "type": "number"
+    },
+    "usuario_id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
